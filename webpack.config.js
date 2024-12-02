@@ -13,14 +13,8 @@ module.exports = {
 
   devtool: "source-map",
 
-  module: { rules: [{ test: /\.js$/, use: 'raw-loader' }], 
-    // rules: [
-    //   { 
-    //     test: /\.txt$/,
-    //     compiler: 'compiler',
-    //     use: 'raw-loader',
-    //   }
-    // ]
+  module: {
+    // rules: [{ test: /\.js$/, use: 'raw-loader' }],
   }
 }; 
 
